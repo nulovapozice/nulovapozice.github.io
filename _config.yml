@@ -1,19 +1,19 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+title:              Nulová pozice
+email:              nulovapozice@gmail.com
+description:        Náplní spolku je propojování kultury a umění s jinými oblastmi života; integrace různých skupin obyvatel do společnosti prostřednictvím kultury a umění; vytvoření platformy pro setkávání umělců a zástupců kulturních organizací.
+author:             Nulová pozice
+baseurl:            ""
+url:                "https://nulovapozice.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
+twitter_username:
+github_username:    nulovapozice
+facebook_username:  nulovapozice
 instagram_username:  
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+#google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
