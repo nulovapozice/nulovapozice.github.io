@@ -23,3 +23,15 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+exclude:
+  - "/vendor/"
+  - bundle
+  - CNAME
+  - docker-compose.yaml
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - README*.md
+  - .*
