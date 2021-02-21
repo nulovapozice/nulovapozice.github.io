@@ -1,6 +1,6 @@
 title:              Nulová pozice
 email:              nulovapozice@gmail.com
-description:        Náplní spolku je propojování kultury a umění s jinými oblastmi života; integrace různých skupin obyvatel do společnosti prostřednictvím kultury a umění; vytvoření platformy pro setkávání umělců a zástupců kulturních organizací.
+description:        Propojování kultury a umění s jinými oblastmi života.
 author:             Nulová pozice
 baseurl:            ""
 url:                "https://nulovapozice.github.io"
@@ -35,3 +35,5 @@ exclude:
   - node_modules
   - README*.md
   - .*
+  - .idea/
+  - .git/
