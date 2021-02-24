@@ -68,6 +68,15 @@
           </li>
           {% endif %}
 
+          <li class="list-inline-item" title="Odebírat aktuality">
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+
           <li class="list-inline-item" title="Editovat tuto stránku">
             <a href="{{ site.github.repository_url }}/tree/master/{{ page.path }}">
               <span class="fa-stack fa-lg">
