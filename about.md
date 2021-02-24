@@ -11,6 +11,12 @@ Mise a vize
 
 Nulová pozice je umělecké seskupení, jehož cílem je propojování kultury a umění s jinými oblastmi života. Integruje různé skupiny společnosti prostřednictvím kultury a umění, vzdělávaní v oblasti kultury a umění. Vytváří platformy pro setkávání umělců a zástupců kulturních organizací podporujících demokratizující procesy v Evropě.
 
+Nulová pozice je termín, který označuje pozici umělce, budoucího autora díla, který zkoumá určitou oblast, získává cenný materiál, aby ho pak umělecky přetvořil. A právě ta výchozí nulová pozice je základní kámen jeho smýšlení. Je to uvažování o světě, které je prosté hodnocení a kritiky. Když zkoumáš, tvoříš, snažíš se pochopit, tak nepotřebuješ přikládat všemu kolem znaménka plus nebo mínus.
+
+Nulová pozice je také název spolku, který vznikl na konci roku 2020, je dávno očekávaným dítětem dvou zapálených divadelnic, intelektuálek a zodpovědných matek - dramaturgyně, překladatelky a lektorky Terezy Krčálové a překladatelky Romany Štorkové Maliti.
+
+Nula nemá hodnotu, nula má potenciál.
+
 
 Mgr. Tereza Krčálová
 --------------------
