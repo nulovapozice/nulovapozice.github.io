@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Člověk a politika"
-subtitle: "první cyklus workshopů v rámci divadelně-sociologického projektu"
+subtitle: "První cyklus workshopů v rámci divadelně-sociologického projektu"
 background: '/img/posts/06.jpg'
 ---
 
