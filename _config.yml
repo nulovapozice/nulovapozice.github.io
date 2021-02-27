@@ -38,3 +38,6 @@ exclude:
   - .*
   - .idea/
   - .git/
+  - gulpfile.js
+  - jekyll-theme-clean-blog.gemspec
+  - package*.json

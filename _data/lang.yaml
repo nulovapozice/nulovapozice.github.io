@@ -1,0 +1,87 @@
+site-title:
+  cz: Nulová pozice
+  ru: Нулевая позиция
+site-author:
+  cz: Nulová pozice
+  ru: Нулевая позиция
+site-subtitle:
+  cz: Nula nemá hodnotu, nula má potenciál.
+  ru: У нуля нет стоимости, у нуля есть потенциал.
+site-description:
+  cz: Náplní spolku je propojování kultury a umění s jinými oblastmi života; integrace různých skupin obyvatel do společnosti prostřednictvím kultury a umění; vytvoření platformy pro setkávání umělců a zástupců kulturních organizací.
+  ru: TODO
+
+home:
+  cz: Domů
+  ru: Домой
+about:
+  cz: O nás
+  ru: О нас
+posts:
+  cz: Příspěvky
+  ru: Сообщения
+contact:
+  cz: Kontakt
+  ru: Контакт
+
+html-lang:
+  cz: cs
+  ru: ru
+switch-lang-code:
+  cz: ru
+  ru: cz
+switch-lang-label:
+  cz: По-русски
+  ru: Česky
+switch-lang-icon:
+  cz: 🇷🇺
+  ru: 🇨🇿
+
+all-posts:
+  cz: Všechny příspěvky
+  ru: Все сообщения
+previous-post:
+  cz: Předchozí příspěvek
+  ru: Предыдущое сообщение
+next-post:
+  cz: Následující příspěvek
+  ru: Следующое сообщение
+
+estimated-read-time:
+  cz: Předpokládaná doba čtení
+  ru: Предполагаемое время чтения
+minute1:
+  cz: minuta
+  ru: минута
+minutes234:
+  cz: minuty
+  ru: минуты
+minutes:
+  cz: minut
+  ru: минут
+
+not-found:
+  cz: Stránka nenalezena
+  ru: Страница не найдена
+menu:
+  cz: Menu
+  ru: Меню
+
+copyright:
+  cz: Copyright
+  ru: Копирайт
+email:
+  cz: E-mail
+  ru: Электронная почта
+facebook:
+  cz: Facebook
+  ru: Фейсбук
+github:
+  cz: GitHub
+  ru: ГитХуб
+rss:
+  cz: Odebírat aktuality
+  ru: Подписаться на новости
+edit-this-page:
+  cz: Editovat tuto stránku
+  ru: Редактировать эту страницу

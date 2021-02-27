@@ -3,6 +3,7 @@ layout: post
 title: "Umění jako politické gesto"
 subtitle: "Online debata – český a slovenský příspěvek ke Dni solidarity s Běloruskem 7.2.2021"
 background: '/img/posts/06.jpg'
+lang: cz
 ---
 
 7.2.2021 od 15:30 vás jistě potěší diskuze na téma [Umění jako politické gesto][ujpg], moderovaná Martou Ljubkovo a Romanou Štorkovou Maliti.

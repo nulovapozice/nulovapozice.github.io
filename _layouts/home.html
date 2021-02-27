@@ -5,18 +5,16 @@ layout: default
 <!-- Page Header -->
 {% if page.background %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-  {% else %}
+{% else %}
   <header class="masthead">
-    {% endif %}
+{% endif %}
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>{{ site.title }}</h1>
-            {% if site.description %}
-            <span class="subheading">{{ site.description }}</span>
-            {% endif %}
+            <h1>{{site.data.lang['site-title'][page.lang]}}</h1>
+            <span class="subheading">{{site.data.lang['site-subtitle'][page.lang]}}</span>
           </div>
         </div>
       </div>
@@ -26,7 +24,7 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <p><em>{{site.description_long}}</em></p>
+        <p><em>{{site.data.lang['site-description'][page.lang]}}</em></p>
         <hr>
       </div>
     </div>
@@ -37,8 +35,9 @@ layout: default
         {{ content }}
 
         <!-- Home Post List -->
-        {% for post in site.posts limit : 5 %}
-
+        {% assign posts = site.posts | where: "lang", page.lang %}
+        {% if posts.size > 0 %}
+        {% for post in posts limit : 5 %}
         <article class="post-preview">
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
             <h2 class="post-title">{{ post.title }}</h2>
@@ -54,13 +53,13 @@ layout: default
         </article>
 
         <hr>
-
         {% endfor %}
 
         <!-- Pager -->
         <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">Všechny příspěvky &rarr;</a>
+          <a class="btn btn-primary float-right" href="{{page.lang | append:  "/posts" | relative_url }}">{{site.data.lang['all-posts'][page.lang]}} &rarr;</a>
         </div>
+        {% endif %}
 
       </div>
     </div>

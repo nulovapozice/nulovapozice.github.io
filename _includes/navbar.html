@@ -1,24 +1,27 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
-    <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="navbar-brand" href="{{"/" | relative_url }}">{{site.data.lang['site-title'][page.lang]}}</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      Menu
+      {{site.data.lang['menu'][page.lang]}}
       <i class="fa fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="{{"/" | relative_url }}">Domů</a>
+          <a class="nav-link" href="{{page.lang | append: "/" | relative_url }}">{{site.data.lang['home'][page.lang]}}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{"/about" | relative_url }}">O nás</a>
+          <a class="nav-link" href="{{page.lang | append: "/about" | relative_url }}">{{site.data.lang['about'][page.lang]}}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ "/posts" | relative_url }}">Příspěvky</a>
+          <a class="nav-link" href="{{page.lang | append:  "/posts" | relative_url }}">{{site.data.lang['posts'][page.lang]}}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{"/contact" | relative_url }}">Kontakt</a>
+          <a class="nav-link" href="{{page.lang | append: "/contact" | relative_url }}">{{site.data.lang['contact'][page.lang]}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{site.data.lang['switch-lang-code'][page.lang] | relative_url }}">{{site.data.lang['switch-lang-icon'][page.lang]}} {{site.data.lang['switch-lang-label'][page.lang]}}</a>
         </li>
       </ul>
     </div>

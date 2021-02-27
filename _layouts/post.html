@@ -35,14 +35,30 @@ layout: default
         <hr>
 
         <div class="clearfix">
+          {% assign previous = page.previous %}
+          {% for ignored in (1..10000) %}
+            {% if previous == nil or previous.lang == page.lang %}
+              {% break %}
+            {% else %}
+              {% assign previous = previous.previous %}
+            {% endif %}
+          {% endfor %}
 
-          {% if page.previous.url %}
-          <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Předchozí<span class="d-none d-md-inline">
-              příspěvek</span></a>
+          {% if previous.url %}
+          <a class="btn btn-primary float-left" href="{{ previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ previous.title }}">&larr; {{site.data.lang['previous-post'][page.lang]}}</a>
           {% endif %}
-          {% if page.next.url %}
-          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Následující<span class="d-none d-md-inline">
-              příspěvek</span> &rarr;</a>
+
+          {% assign next = page.next %}
+          {% for ignored in (1..10000) %}
+            {% if next == nil or next.lang == page.lang %}
+              {% break %}
+            {% else %}
+              {% assign next = next.next %}
+            {% endif %}
+          {% endfor %}
+
+          {% if next.url %}
+          <a class="btn btn-primary float-right" href="{{ next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ next.title }}">{{site.data.lang['next-post'][page.lang]}} &rarr;</a>
           {% endif %}
 
         </div>

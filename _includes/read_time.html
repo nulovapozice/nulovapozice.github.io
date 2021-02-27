@@ -1,13 +1,13 @@
-<span class="reading-time" title="Estimated read time">
+<span class="reading-time" title="{{site.data.lang['estimated-read-time'][page.lang]}}">
   {% assign words = include.content | number_of_words %}
   {% if words < 270 %}
-    1 minuta
+    1 {{site.data.lang['minute1'][page.lang]}}
   {% else %}
     {% assign minutes = words | divided_by:135 %}
     {% if minutes < 5 %}
-      {{ minutes }} minuty
+      {{ minutes }} {{site.data.lang['minutes234'][page.lang]}}
     {% else %}
-      {{ minutes }} minut
+      {{ minutes }} {{site.data.lang['minutes'][page.lang]}}
     {% endif %}
   {% endif %}
 </span>

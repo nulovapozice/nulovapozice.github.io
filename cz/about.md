@@ -3,7 +3,8 @@ layout: page
 title: O nás
 description: Propojování kultury a umění s jinými oblastmi života.
 background: '/img/bg-about.jpg'
-permalink: /about/
+permalink: /cz/about/
+lang: cz
 ---
 
 Mise a vize
