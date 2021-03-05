@@ -1,2 +1,22 @@
 // Import Core Clean Blog SCSS
 @import "../assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss";
+
+.logo {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 64px;
+  height: 64px;
+}
+
+@media (max-width: 410px) {
+  .logo {
+    display: none;
+  }
+}
+
+@media (max-width: 1060px) {
+  .logo {
+    position: static;
+  }
+}
