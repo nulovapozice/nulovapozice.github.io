@@ -2,21 +2,21 @@
 @import "../assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss";
 
 .logo {
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  width: 64px;
-  height: 64px;
+  display: none;
 }
 
-@media (max-width: 410px) {
+@media (min-width: 410px) {
   .logo {
-    display: none;
+    display: inline;
+    position: static;
   }
 }
 
-@media (max-width: 1060px) {
+@media (min-width: 1060px) {
   .logo {
-    position: static;
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 16px;
   }
 }
