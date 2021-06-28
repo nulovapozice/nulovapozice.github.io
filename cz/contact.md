@@ -8,11 +8,8 @@ lang: cz
 ---
 
 - Nulová pozice z.s.
-- IČO: 09660330
-- Sídlo spolku: U stanice 593/7, Liboc, 161 00 Praha 6
-- Výbor spolku:
-    - Mgr. Romana Štorková Maliti 
-    - Mgr. Tereza Krčálová
-    - Ľubica Schmarcová
+- IČO: 096 60 330
+- Číslo účtu: 96603307/5500, Raiffeisen bank, a.s.
+- Sídlo spolku: U stanice 593/7, Praha 6 - Liboc, 161 00
 - E-mail: [{{site.email}}](mailto:{{site.email}})
 - Facebook: [https://www.facebook.com/{{site.facebook_username}}](https://www.facebook.com/{{site.facebook_username}})

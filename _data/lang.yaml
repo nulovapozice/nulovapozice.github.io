@@ -15,11 +15,23 @@ home:
   cz: Domů
   ru: Домой
 about:
-  cz: O nás
-  ru: О нас
+  cz: O&nbsp;nás
+  ru: О&nbsp;нас
 posts:
   cz: Příspěvky
   ru: Сообщения
+calendar:
+  cz: Kalendář
+  ru: События
+partners:
+  cz: Partneři
+  ru: Партнёри
+people-and-politics:
+  cz: Člověk&nbsp;a politika
+  ru: Человек&nbsp;и политика
+verbatim:
+  cz: Metoda verbatim
+  ru: Метода вербатим
 contact:
   cz: Kontakt
   ru: Контакт
