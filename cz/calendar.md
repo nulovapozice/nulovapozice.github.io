@@ -2,7 +2,7 @@
 layout: page
 title: Kalendář
 description: Realizované a plánované aktivity
-background: '/img/bg-index.jpg'
+background: '/img/bg-calendar.jpg'
 permalink: /cz/calendar/
 lang: cz
 ---

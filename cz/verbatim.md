@@ -2,7 +2,7 @@
 layout: page
 title: Metoda verbatim
 description: Metoda verbatim a dokumentární divadlo
-background: '/img/bg-index.jpg'
+background: '/img/bg-verbatim.jpg'
 permalink: /cz/verbatim/
 lang: cz
 ---

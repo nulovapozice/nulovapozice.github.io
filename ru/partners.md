@@ -2,7 +2,7 @@
 layout: page
 title: Partneři
 description: Наши партнёри
-background: '/img/bg-index.jpg'
+background: '/img/bg-partners.jpg'
 permalink: /ru/partners/
 lang: ru
 ---
